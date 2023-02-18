@@ -1,15 +1,13 @@
 # CBLang
-## A bad programming language made in Python.
+## A programming language made in Python.
 
-CBLang is a programming language aiming to fix most of my problems with Python (this means that you likely don't need it), while still keeping it similar and as effective.
+S-- is a programming language tha is created as something between python and c++.
 
-CBLang can be either interpreted, transpiled to python, or compiled into an exe using [PyInstaller](https://pyinstaller.readthedocs.io/en/stable/).
+S-- can be either interpreted, transpiled to python, or compiled into an exe using [PyInstaller](https://pyinstaller.readthedocs.io/en/stable/).
 
-CBLang can run without any dependencies (including PyInstaller - *you just won't be able to compile your programs*, but they will run and transpile fine).
+S-- can run without any dependencies (including PyInstaller - *you just won't be able to compile your programs*, but they will run and transpile fine).
 
-CBLang is only tested on Windows, but I'm sure it wouldn't be hard at all to get working on Linux.
-
-Be warned that everything is basically held together by hopes and dreams, *so you are going to get a load of super random errors*.
+S-- is only tested on Windows, but I'm sure it wouldn't be hard at all to get working on Linux.
 
 So, how does it work?
 
@@ -25,15 +23,15 @@ So, how does it work?
     }
 *^This is a basic `Hello World` program.*
 
-To run this, you will need the CBLang interpreter that you can either obtain by downloading it from the [releases section](https://github.com/Ceebox/cbLang/releases) or running `.\build.bat` (this will give you a depricated version of the interpreter based on the old Python code).
+To run this, you will need the S-- interpreter that you can either obtain by downloading it from the [releases section](https://github.com/sytzemeijer/S--/releases) or running `.\build.bat` (this will give you a depricated version of the interpreter based on the old Python code).
 
 ⠀  
 ## Running, transpiling and 'compiling'
-CBLang supports lots of methods of running your code, either having it directly interpreted, transpiling it to Python and spitting out the file for you to run when you want, or using PyInstaller to 'compile' (a more technically correct word would be 'pack') your code to an exe.
+S-- supports lots of methods of running your code, either having it directly interpreted, transpiling it to Python and spitting out the file for you to run when you want, or using PyInstaller to 'compile' (a more technically correct word would be 'pack') your code to an exe.
 
-To run code directly, use the command `cbLang.exe fileName.cb` or `cbLang.exe -r fileName.cb`.⠀  
-To transpile code, use the command `cbLang.exe -t fileName.cb outputfile.py`.⠀  
-To compile code, use the command `cbLang.exe -c filename.cb output.exe`. *(This requires PyInstaller to be installed)*.⠀   
+To run code directly, use the command `s--.exe fileName.cb` or `cbLang.exe -r fileName.cb`.⠀  
+To transpile code, use the command `s--.exe -t fileName.cb outputfile.py`.⠀  
+To compile code, use the command `s--.exe -c filename.cb output.exe`. *(This requires PyInstaller to be installed)*.⠀   
 
 ⠀  
 ⠀  
